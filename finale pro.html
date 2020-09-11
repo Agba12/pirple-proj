@@ -1,0 +1,449 @@
+<! DOCTYPE html>
+<html>
+	<head>
+		<title>APPLE</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="finale pro.css" type="text/css" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<!-- creating javascript file -->
+            <!--since we are using jquery, we need to use JQUERY CDN LINK -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+          <!--creating hide and show effect, we need to include the jquery cdn link and write down the jquery code -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--using jquery method to hide and show elements -->
+		<script>
+			$(document).ready(function(){
+				 $(".font .fa-times").hide();
+                $(".font .fa-bars").click(function(){
+                    $(this).hide();
+                    $(".font .fa-times").show();
+					 $(".sub-page").addClass("active");
+					 $(".desk, .head").hide();
+                });
+				 $(".font .fa-times").click(function(){
+                    $(this).hide();
+                    $(".font .fa-bars").show();
+					 $(".sub-page").removeClass("active");
+					  $(".desk, .head").show();
+				});
+				$(".search-text").click(function(){
+                    $(".sub-page").hide();
+                    $(".desk, .menu ").hide();
+                    $(".sub-page2").addClass("active");    
+                });
+				$(".can").click(function(){
+                    $(".sub-page2").removeClass("active");
+                    $(".sub-page").show();
+                    $(".menu").show();
+                   
+               });
+			});
+		</script>
+
+	</head>
+	
+	<body>
+			<!-- Mobile View -->
+	<div class="mobile">
+		<nav class="menu">
+           <div class="font">
+                 <i class="fa fa-bars" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>                
+                   <div class="botton"><a href="#"><i class="fab fa-apple"></i></a></div>
+               <div class="botton"><a style="margin-right: 20px;" href="#"><i class="fa fa-briefcase" aria-hidden="true"></i></a></div>  
+        </nav> 
+		
+		<div class="head">
+				<div class="box12"><a href="#"> Evaluate COVID-19 symptoms and understand next steps  </a></div>
+				<div class="box13" ><a href="#">Shop online </a><span>and get free, no-contact delivery, Specialist help, and more.</span>.</div>		
+		</div>	
+
+		<div class="sub-page">                
+			<div class="search-box">
+			  <a class="search-btn" href="#"> <i class="fa fa-search"></i> </a>    
+			   <input class="search-text" type="text" name="" placeholder=" Search apple.com">        
+                </div>
+                 <hr>
+                  <section class="sublist" data-link="http://www.apple.com">
+                   <p><a href="#">Mac</a></p>
+                     <hr>
+                      <p><a href="#">iPad</a></p>
+                       <hr>
+                        <p><a href="#">iPhone</a></p>
+                         <hr>
+                          <p><a href="#">Watch</a></p>
+                         <hr>
+                      <p><a href="#">TV</a></p>
+                    <hr>
+                  <p><a href="#">Music</a></p>
+               <hr>
+             <p><a href="#">Sport</a></p>
+            </section>  
+        </div>    
+		
+		<div class="sub-page2">  
+			<div class="container">
+			 <div class="search-box2">
+			  <a class="search-btn2" href="#"> <i class="fa fa-search"></i>  </a>    
+                <input class="search-text2" type="text" name="" placeholder=" Search apple.com"> 
+                  </div>
+                    <div class="can"> <a href="#">Cancel</a> </div>
+                      </div>
+                         <hr>
+                           <section class="sublist" data-link="http://www.apple.com">
+                             <p style="color: #b2beb5; font-size: 12px;">QUICK LINKS</p>                
+                               <p><a href="#">COVID-19 Information</a></p>
+                                 <hr>
+                                  <p><a href="#">Apple Store Closure FAQ</a></p>
+                                 <hr>
+                               <p><a href="#">Shop Apple Store Online</a></p>
+                            <hr>
+                          <p><a href="#">Accessories</a></p>
+                       <hr>
+                    <p><a href="#">AirPods</a></p>
+                 <hr>                            
+              </section> 
+         </div>
+			
+	</div>
+	
+			<!-- Desktop Screen -->
+	<div class="desk">
+		<div class="box1">
+				<div class="box11"></div>
+					<div class="box12"><a href="#"> Evaluate COVID-19 symptoms and understand next steps.  </a></div>
+				<div class="box13" ><a href="#">Shop online </a><span>and get free, no-contact delivery, Specialist help, and more.</span>.</div>		
+		</div>
+		
+		<div class="box2">
+				<section data-link="http://www.apple.com">
+					<span> <a href="#">
+		
+								<span class="fone">iPhone SE </span> </br>
+								<span class="lol">Lots to love. Less to spend. <br> Starting at $399. </span> <br> 
+								<span class="range">From $9.54/mo. or $229 with trade-in.<sup style="font-size:10px;">1</sup></span> <br>
+			
+							</a>
+					</span>
+			
+					<div class="box21"><span> <a href="#"> Learn more.</a></span> &emsp;<span><a href="#"> Buy. </span></a>	</div>
+				</section>	
+		</div>
+		
+		 <div class="box3">
+			<section data-link="http://www.apple.com">
+			  <span>
+                <a href="#">
+                 <span class="fone11">iPhone 11 </span> <br>
+                   <span class="rite">Just the right amount of everything. </span> <br> 
+                     <span class="range2">From $19.95/mo. or $479 with trade-in.<sup style="font-size:10px;">1</sup></span> <br>
+                   </a>
+                 </span>
+              <div class="box31"><span> <a href="#"> Learn more.</a></span> &emsp;<span><a href="#"> Buy. </a></span>	</div>
+            </section>
+        </div>
+		
+		<div class="box4"> 
+			<section data-link="http://apple.com">
+				<div class="down"> <a href="#"> Watch now </a><span class="super"><a href="#"><sup> er </sup><sub> en </sub> </a></span></div> 
+			</section>
+		</div>
+		
+		<div class="box55">
+			<section class="box515" data-link="http://www.apple.com" style="background-color: #f2f2f2;">
+				<p>Buy a Mac or iPad for college. Get AirPods. </p>
+					<span class="shop"><a href="#">Shop.</a></span> 
+						</section>
+							<section class="box525" data-link="http://apple.com" style="background-color: #f7f8fa">
+					<p>With the Always-On Retina display. You've never seen a watch like this.</p>
+				<div class="box5225"><span><a href="#">Learn now.</a></span> &emsp; <span><a href="#"> Buy</a></span></div>
+			</section>		
+		</div>
+		
+		<div class="box6">
+			<section class="box61" data-link="http://apple.com" style="background-color: #349eeb;">
+			 <p>Calling all players.<br> Hundred of worlds. Zero ads. <br></p>					
+               <div class="box611"><span><a href="#">Learn more.</a></span> &emsp;
+                <span><a href="#"> Try it free <sup style="font-size: 11px;">2</sup></a></span>
+                  <span class="super1"><a href="#"><sup> er </sup><sub> en </sub> </a></span>
+                    </div>
+                     </section>				
+                    <section class="box62" data-link="http://www.apple.com" style="background-color: #bfaf97;">					
+                  <p><span class="box621">Apple at Work </span><br><span> Do anything.<br> Anywhere. </span><br></p>			
+                <span class="box622"><a href="#">Learn more.</a></span> 
+             </section>				
+        </div>
+		
+		<div class="box7">
+			<section class="box71" data-link="http://www.apple.com" style="background-color: #f7f8fa;">
+			  <p class="box711">Apple Card <br>Monthly Installments</p>
+               <span> Pay for your new Apple products over time, interest-free with Apple Card. <sup style="font-size: 11px;">3</sup></span><br>
+                
+                 <span class="box712"><a href="#">Learn more.</a></span> 
+                  </section>
+                   <section class="box72" data-link="http://www.apple.com" style="background-color: #f7f8fa;">
+                  <p class="box721">Apple's approach to<br>reopening our stores</p>
+                <span class="box722"><a href="#">Read the letter.</a></span> 
+              </section>	
+		</div>
+		
+		<div class="box8">
+		  <div class="in8">
+				<div class="box81" style="border-bottom: 1px solid gray; margin-bottom: 30px; padding: 10px 0 ">
+					<p>
+						1. Trade In: Trade-in values vary. iPhone 11 and iPhone 11 Pro promotional pricing is after trade-in
+						  of iPhone 8 Plus and iPhone X in good condition. iPhone SE promotional pricing is after trade-in of 
+                            iPhone 8 in good condition. Additional trade-in values require purchase of a new iPhone, subject to 
+                              availability and limits. Must be at least 18. Apple or its trade-in partners reserve the right to refuse
+                                or limit any Trade In transaction for any reason. In-store trade-in requires presentation of a valid,
+                                  government-issued photo ID (local law may require saving this information). Sales tax may be assessed
+                                    on full value of new iPhone. Additional terms from Apple or Apple’s trade-in partners may apply. Monthly 
+                                pricing: Available to qualified customers and requires 0% APR, 24-month installment loan with Citizens 
+                             One or Apple Card Monthly Installments and iPhone activation with AT&T, Sprint, T-Mobile, or Verizon. 
+                          Taxes and shipping not included. Additional Apple Card Monthly Installments terms are in the<a href="#" class="text"> Customer 
+                        Agreement</a>. Additional iPhone Payments terms are<a href="#" class="text"> here.</a>
+                    </p>
+                     <p>
+                        2. $4.99/month after free trial. No commitment. Plan automatically renews after trial until canceled.
+                     </p>
+                     <p>
+						3. Apple Card Monthly Installments is available for certain Apple products and is subject to credit 
+						   approval and credit limit. See <a href="#" class="text">https://support.apple.com/kb/HT211204</a> for more information about eligible 
+			                  products. iPhone activation required on iPhone purchases made at an Apple Store with one of these national
+			                    carriers: AT&T, Sprint, Verizon, or T-Mobile. Variable APRs for Apple Card other than Apple Card Monthly
+			                  Installments range from 10.99% to 21.99% based on credit worthiness. Rates as of April 1, 2020. Taxes and 
+			                shipping are not included in Apple Card Monthly Installments and are subject to your standard purchase APR.
+		                  See the Apple Card customer agreement for more information.
+		            </p>
+					<p>
+						Apple TV+ is $4.99/month after free trial. One subscription per Family Sharing group. Offer good for 3 months
+		                  after eligible device activation. Plan automatically renews until canceled. Restrictions and other terms apply.
+		            </p>		
+		        </div>
+				
+				<div class="box83">
+					<div class="box831">
+					  <p><span style="font-weight: bold; color: black;">Shop and Learn</span> <br>
+						<a href="#">Mac </a> <br>
+						  <a href="#">iPad </a><br>
+							<a href="#">iPhone </a><br>
+							  <a href="#">Watch </a><br>
+								<a href="#">TV </a><br>
+								  <a href="#">Music </a><br>
+								<a href="#">AirPods </a><br>
+							  <a href="#">HomePod </a><br>
+						    <a href="#">iPod touch </a><br>
+						  <a href="#">Accessories </a><br>
+					    <a href="#">Gift Cards </a>
+					  </p>
+				    </div>
+						
+					<div class="box832">
+					  <p><span style="font-weight: bold; color: black;">Services</span> <br>
+					    <a href="#">Apple Music</a><br>
+					      <a href="#">Apple News+</a><br>
+						    <a href="#">Apple TV+</a><br>
+							  <a href="#">Apple Arcade</a><br>
+							    <a href="#">Apple Books</a><br>
+								  <a href="#">Apple Card</a><br>
+								    <a href="#">iCloud</a>
+								  </p>
+							    <p><span style="font-weight: bold; color: black;"> Account </span><br>
+							  <a href="#">Manage Your Apple ID</a><br>
+						    <a href="#">Apple Store Account</a><br>
+						  <a href="#">iCloud.com</a>
+					    </p>
+				    </div>
+						
+	                <div class="box833">
+						<p><span style="font-weight: bold; color: black;">Apple Store</span><br>
+						  <a href="#">Find a Store</a><br>
+							<a href="#">Shop Online</a><br>
+							  <a href="#">Genius Bar</a><br>
+								<a href="#">Today at Apple</a><br>
+								  <a href="#">Apple Camp</a><br>
+									<a href="#">Apple Store App</a><br>
+									  <a href="#">Refurbished and Clearance</a><br>
+									<a href="#">Financing</a><br>
+								  <a href="#">Apple Trade In</a><br>
+								<a href="#">Order Status</a><br>
+							<a href="#">Shopping Help</a>
+						 </p>
+					</div>
+						
+					<div class="box834">
+						<p> <span style="font-weight: bold; color: black;">For Business</span><br>
+						   <a href="#">Apple and Business</a><br>
+							  <a href="#">Shop for Business</a>
+								</p>
+								  <p> <span style="font-weight: bold; color: black;">For Education</span><br>
+									<a href="#">Apple and Education</a><br>
+									  <a href="#">Shop for K-12</a><br>
+										<a href="#">Shop for College</a>
+										  </p>
+											<p> <span style="font-weight: bold; color: black;">For Healthcare</span><br>
+											  <a href="#">Apple in Healthcare</a><br>
+											<a href="#">Health on Apple Watch</a><br>
+										 <a href="#">Health Records on iPhone</a>
+										</p>
+									<p> <span style="font-weight: bold; color: black;">For Government</span><br>
+							   <a href="#">Shop for Government</a><br>
+							<a href="#">Shop for Veterans and Military</a>
+						</p>
+					</div>
+						
+					<div class="box835">
+						<p> <span style="font-weight: bold; color: black;">Apple Values</span><br>
+						  <a href="#">Accessibility</a><br>
+						    <a href="#">Education</a><br>
+							  <a href="#">Environment</a><br>
+								<a href="#">Inclusion and Diversity</a><br>
+								  <a href="#">Privacy</a><br>
+									<a href="#">Supplier Responsibility</a>
+									  </p>
+										<p> <span style="font-weight: bold; color: black;">About Apple</span><br>
+										  <a href="#">Newsroom</a><br>
+									    <a href="#">Apple Leadership</a><br>
+									  <a href="#">Job Opportunities</a><br>
+									<a href="#">Investors</a><br>
+								<a href="#">Events</a><br>
+							<a href="#">Contact Apple</a>
+						 </p>
+					</div>
+				
+				</div>
+		  
+				<!-- Accordion for footer section -->
+		    <div class="accord" data-link="http://www.apple.com">
+					<div class="accordion">
+                        <span class="click"><a>Shop and Learn</a></span>
+                         <div class="list"><a href="#" >Mac </a> <br>
+                          <a href="#">iPad </a><br>
+                            <a href="#">iPhone </a><br>
+                              <a href="#">Watch </a><br>
+                                <a href="#">TV </a><br>
+                                  <a href="#">Music </a><br>
+                                   <a href="#">AirPods </a><br>
+                                 <a href="#">HomePod </a><br>
+                               <a href="#">iPod touch </a><br>
+                             <a href="#">Accessories </a><br>
+                           <a href="#">Gift Cards </a>  
+                         </div>
+                    </div>
+           
+                    <div class="accordion">
+                      <span class="click"> <a>Services</a></span>
+                       <div class="list"><a href="#">Apple Music</a><br>
+                        <a href="#">Apple News+</a><br>
+                         <a href="#">Apple TV+</a><br>
+                          <a href="#">Apple Arcade</a><br>
+                         <a href="#">Apple Books</a><br>
+                        <a href="#">Apple Card</a><br>
+                       <a href="#">iCloud</a>
+                      </div>
+                    </div> 
+           
+                    <div class="accordion">
+                      <span class="click"><a>Apple Store</a></span>
+                       <div class="list"> <a href="#">Find a Store</a><br>
+                         <a href="#">Shop Online</a><br>
+                           <a href="#">Genius Bar</a><br>
+                             <a href="#">Today at Apple</a><br>
+                               <a href="#">Apple Camp</a><br>
+                                 <a href="#">Apple Store App</a><br>
+                                   <a href="#">Refurbished and Clearance</a><br>
+                                 <a href="#">Financing</a><br>
+                               <a href="#">Apple Trade In</a><br>
+                             <a href="#">Order Status</a><br>
+                          <a href="#">Shopping Help</a>
+                        </div>
+                    </div>
+           
+                   <div class="accordion">
+                     <span class="click">For Business</span>
+                       <div class="list"><a href="#">Apple and Business</a><br>
+                         <a href="#">Shop for Business</a>
+	                  </div>
+                   </div>
+           
+                   <div class="accordion">
+                     <span class="click">For Education</span>
+                       <div class="list"><a href="#">Apple and Education</a><br>
+                         <a href="#">Shop for K-12</a><br>
+                       <a href="#">Shop for College</a>
+                     </div>
+                   </div>
+           
+                   <div class="accordion">
+                     <span class="click">For Government</span>
+                       <div class="list"><a href="#">Shop for Government</a><br>
+                     <a href="#">Shop for Veterans and Military</a>
+	                </div>
+                   </div>
+           
+                   <div class="accordion">
+                     <span class="click">Apple Values</span>
+                      <div class="list"><a href="#">Accessibility</a><br>
+		               <a href="#">Education</a><br>
+       		            <a href="#">Environment</a><br>
+		                  <a href="#">Inclusion and Diversity</a><br>
+		                 <a href="#">Privacy</a><br>
+		               <a href="#">Supplier Responsibility</a>
+                      </div>
+                    </div>
+           
+                    <div class="accordion">
+                     <span class="click">About Apple</span>
+                       <div class="list"><a href="#">Newsroom</a><br>
+                         <a href="#">Apple Leadership</a><br>
+		                   <a href="#">Job Opportunities</a><br>
+		                     <a href="#">Investors</a><br>
+		                   <a href="#">Events</a><br>
+                         <a href="#">Contact Apple</a>
+                       </div>
+                    </div>
+		    </div> <!-- end of accordion part -->
+			<div class="box84">
+         <p class="box841"> More ways to shop:<a href="#"> Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+	 <span> <hr> </span>
+    </div>
+				
+    <div class="box85">
+	<div class="box851"> 
+	  <div> Copyright © 2020 Apple Inc. All rights reserved.</div> &emsp; &emsp;
+	   <span class="roll"><a href="#">Privacy Policy </a> &nbsp;| &nbsp; 
+	     <a href="#">Terms of Use</a> &nbsp;| &nbsp; 
+	       <a href="#">Sales and Refunds</a> &nbsp;| &nbsp; 
+		 <a href="#">Legal</a> &nbsp;| &nbsp; 
+	       <a href="#">Site Map</a>
+	     </span>
+	   <div class="state"> <a href="#">United State</a></div>
+         </div>
+    </div>	
+			
+			 <div class="box84H">
+				<p class="box841"> More ways to shop:<a href="#"> Find an Apple Store</a> or <a href="#">other retailer</a> near you. Or call 1-800-MY-APPLE.</p>
+					<p class="box842"> <a href="#">United State</a></p>
+				<div class="box843"> Copyright © 2020 Apple Inc. All rights reserved.</div>
+					<div class="box844"><a href="#">Privacy Policy </a> &nbsp;| &nbsp; 
+					  <a href="#">Terms of Use</a> &nbsp;| &nbsp; 
+						<a href="#">Sales and Refunds</a> &nbsp;| &nbsp; 
+						  <a href="#">Legal</a> &nbsp;| &nbsp; 
+							<a href="#">Site Map</a>
+				    </div>
+			</div>
+		
+			
+			
+			
+		</div> <!-- end of in8 -->
+	</div> <!-- end of box8 -->
+		
+  </div><!-- end of desktop view -->
+	
+	        <!-- linking the JS file with the HTML file, for that we are going to use the script tag -->
+     <script type="text/javascript" src="finale pro.js"></script>
+	
+	</body>
